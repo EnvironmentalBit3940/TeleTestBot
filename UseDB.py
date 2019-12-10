@@ -51,5 +51,5 @@ class tests_db:
         self.cur.execute('CREATE TABLE IF NOT EXISTS Test1(id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, question char(100), cor_answ char(100), answrs char(100));')
 
 if __name__ == "__main__":
-
+	
 	print(opendb())
